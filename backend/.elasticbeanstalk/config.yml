@@ -17,10 +17,3 @@ environment-defaults:
       profile: null
       sc: null
       workspace_type: Application
-      aws:autoscaling:launchconfiguration:
-        instance_type: t2.micro
-      aws:elasticbeanstalk:application:environment:
-        PARAM1: value1
-        PARAM2: value2
-      aws:elasticbeanstalk:environment:process:bytype:
-        WebWorker: 1
